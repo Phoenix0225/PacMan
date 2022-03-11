@@ -1,0 +1,99 @@
+body {
+    background-image: url('../img/bg.png');
+}
+
+#tableau-div {
+    padding: 5px;
+    background-color: black;
+    border: solid blue 5px;
+    border-collapse: collapse;
+    border-radius:20px;
+    width: 540px;
+    margin: auto;
+}
+
+#bouttons {
+    width: 540px;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+}
+
+#darth {
+    width: 540px;
+    height: 303.75px;
+}
+
+#leia {
+    width: 540px;
+    height: 228.8px;
+}
+
+img {
+    width: 27px;
+    height: 27px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0;
+    line-height: 0;
+}
+
+#tabMenu {
+    margin-bottom: 75px;
+}
+
+#browser {
+    position: fixed;
+    bottom: 0;
+}
+
+.menu, .menuScore {
+    border: blue 2px solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: yellow;
+    text-shadow: none;
+    font-family: "Girassol";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.menu:hover, .menuScore:hover {
+    cursor: pointer;
+}
+
+#signeTitre {
+    color: blueviolet;
+    font-family: "Girassol";
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 150px;
+    text-shadow: blanchedalmond -3px 3px;
+    text-align: center;
+}
+
+#titre, .choixMenu {
+    width: 1150px;
+    margin: auto;
+}
+
+.choixMenu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.choixMenu li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

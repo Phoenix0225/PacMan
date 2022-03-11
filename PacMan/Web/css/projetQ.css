@@ -1,0 +1,140 @@
+/* Cedric Noel */
+@font-face {
+    font-family: Girassol;
+    src: url("../fonts/Girassol/Girassol-Regular.ttf");
+}
+
+#niv1 {
+    background-image: url("../img/grassBackground.png");
+    background-size: contain;
+}
+
+#maison {
+    background-image: url("../img/woodBackground.png");
+    background-size: contain;
+}
+
+#dungeon {
+    background-image: url("../img/stoneBackground.png");
+    background-size: contain;
+}
+
+div {
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+}
+
+#diff {
+    display: block;
+    width: 80px;
+}
+
+label, p {
+    color: white;
+    text-shadow: blueviolet -1px 2px;
+    font-family: Girassol;
+}
+
+input[type="radio"] {
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#tabMenu {
+    border: solid white 2px;
+    border-collapse: collapse;
+    background-color: gray;
+}
+
+#tabMenu tr td:first-child {
+    border: solid white 2px;
+    width: 50px;
+    height: 25px;
+}
+
+#tabMenu tr td:nth-child(2), #tabMenu tr td:last-child {
+    border-bottom: solid white 2px;
+    width: 300px;
+    height: 25px;
+}
+
+#tabMenu td p {
+    text-align: center;
+}
+
+td {
+    padding: 0;
+    line-height: 0;
+}
+
+#tabMenu {
+    margin-bottom: 75px;
+}
+
+#browser {
+    position: fixed;
+    bottom: 0;
+}
+
+.menu, .menuScore {
+    border: darkblue 2px solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: blueviolet;
+    text-shadow: none;
+    font-family: "Girassol";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: darkgrey;
+}
+
+.menu:hover, .menuScore:hover {
+    cursor: pointer;
+}
+
+body {
+    background-image: url("../img/MenuBackground.png");
+}
+
+#signeTitre {
+    color: blueviolet;
+    font-family: "Girassol";
+    font-size: 20px;
+    font-weight: bold;
+    font-size: 150px;
+    text-shadow: blanchedalmond -3px 3px;
+    text-align: center;
+}
+
+#titre, .choixMenu {
+    width: 1150px;
+    margin: auto;
+}
+
+.choixMenu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.choixMenu li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bouttons {
+    display: flex;
+}
